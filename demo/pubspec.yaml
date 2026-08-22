@@ -1,0 +1,65 @@
+name: demo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core UI dependencies
+  cupertino_icons: ^1.0.8
+  lottie: ^2.7.0
+  fl_chart: ^0.69.0
+  animations: ^2.0.11
+  glassmorphism: ^3.0.0
+  google_fonts: ^5.0.0
+
+  # Data & Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+  intl: ^0.19.0
+  sqflite: ^2.2.8+4
+  path: ^1.8.3
+
+  # Export & Sharing
+  share_plus: ^7.0.0
+  csv: ^5.0.1
+  
+  # File Picker - CORRECT VERSION
+  file_picker: ^10.3.0
+
+
+  # FireBase dependencies
+  firebase_core: ^3.12.0
+  cloud_firestore: ^5.6.0
+  firebase_auth: ^5.5.0
+
+  # Google Drive Services
+  # google_sign_in: ^6.1.5
+  # googleapis: ^11.3.0
+  # http: ^1.1.0
+  # googleapis_auth: ^2.0.0
+
+  # Optional (remove if causing issues)
+  # mailer: ^6.0.0
+  # google_maps_flutter: ^2.3.0
+  # location: ^8.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.3
+  build_runner: ^2.4.6
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - fonts/
