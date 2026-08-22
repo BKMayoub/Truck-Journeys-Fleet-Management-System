@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721726644667",
+    "project_id": "bouksim-trans-app",
+    "storage_bucket": "bouksim-trans-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721726644667:android:834a37cb4e6f14ba5f649e",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpkRn2N6x4DUSnl7S6eOxNTv4CLlLJcP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
